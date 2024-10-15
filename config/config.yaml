@@ -1,0 +1,7 @@
+evernote:
+  login_url: "https://accounts.evernote.com/login-with-password"
+  homepage_url: "https://evernote.com/client/web"
+use_manual_open: True
+user_credentials:
+  email: ""
+  password: ""
