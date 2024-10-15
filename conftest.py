@@ -31,14 +31,11 @@ def user_credentials(config):
 def note_example():
     return {
         "header": "Dear Innovator!",
-        "list1": [
+        "list": [
             "We welcome you to the Findest Universe! Here, you can accelerate your research, technology scouting, and reporting process.",
             "Increase your R&D success by making faster and more informed decisions to ultimately reduce time-to-market.",
             "With an ever-expanding Universe, tap into the wealth of your organization's past research and findings, becoming aware of each other's breakthroughs and preventing the reinvention of the wheel.",
             "Get Started and accelerate your innovative potential."
-        ],
-        "list": [
-            "1"
         ],
         "bold": "Warm regards,",
         "italic": "Findest"

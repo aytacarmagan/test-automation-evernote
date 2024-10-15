@@ -23,13 +23,13 @@ def test_login_find_note(driver, config, user_credentials, note_example):
 
         # Verify the Note's Persistence and Format
         actual_content = editor_page.get_note_content((By.XPATH, '//*[@id="en-note"]/h1'))
-        assert expected_content["header"] in actual_content, f"chrExpected '{expected_content["header"]}' to be in '{actual_content}'"
+        assert expected_content["header"] in actual_content, f"chrExpected '{expected_content['header']}' to be in '{actual_content}'"
 
         actual_content = editor_page.get_note_content((By.XPATH, '//*[@id="en-note"]/div[1]/b'))
-        assert expected_content["bold"] in actual_content, f"Expected '{expected_content["bold"]}' to be in '{actual_content}'"
+        assert expected_content["bold"] in actual_content, f"Expected '{expected_content['bold']}' to be in '{actual_content}'"
 
         actual_content = editor_page.get_note_content((By.XPATH, '//*[@id="en-note"]/div[2]/i'))
-        assert expected_content["italic"] in actual_content, f"Expected '{expected_content["italic"]}' to be in '{actual_content}'"
+        assert expected_content["italic"] in actual_content, f"Expected '{expected_content['italic']}' to be in '{actual_content}'"
 
         actual_content = editor_page.get_note_content((By.XPATH, '//*[@id="en-note"]'))
         for item in expected_content["list"]:
