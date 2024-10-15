@@ -35,7 +35,7 @@ project_root/
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/aytacarmagan/test-automation-evernote.git
    cd <project-directory>
    ```
 
